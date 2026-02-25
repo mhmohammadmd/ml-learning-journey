@@ -1,57 +1,40 @@
 # 🎬 Content-Based Movie Recommendation System
 
 ## 📌 Overview
-This project implements a Content-Based Recommendation System using the MovieLens 25M dataset.  
-The system recommends movies based on similarity in genre metadata.
+This project implements a content-based recommendation system using the MovieLens dataset.  
+Movies are represented using TF-IDF vectors generated from genres and tag metadata.  
+Cosine similarity is used to generate personalized recommendations.
 
 ---
 
-## 📂 Dataset
-MovieLens 25M Dataset  
-Source: Kaggle  
-File used: movies.csv  
+## 🧠 Methodology
 
-(Dataset not uploaded due to size constraints.)
-
----
-
-## 🧠 Approach
-
-1. Data Cleaning and Preprocessing
-2. Genre Feature Extraction
-3. TF-IDF Vectorization
-4. Cosine Similarity Computation
-5. Top-N Recommendation Generation
+1. Data preprocessing
+2. Content feature engineering (genres + tags)
+3. TF-IDF vectorization
+4. User profile construction
+5. Cosine similarity ranking
 
 ---
 
-## 🛠 Technologies Used
+## 📊 Evaluation
+Future work includes implementing:
+- Precision@K
+- Recall@K
+- Dimensionality reduction using TruncatedSVD
 
+---
+
+## 🛠 Tech Stack
 - Python
 - Pandas
 - Scikit-learn
-- TF-IDF Vectorizer
+- TF-IDF
 - Cosine Similarity
 
 ---
 
-## 📊 Example Output
+## 🚀 How to Run
 
-Input: Toy Story (1995)
-
-Recommended Movies:
-- Toy Story 2 (1999)
-- A Bug's Life (1998)
-- Monsters, Inc. (2001)
-
----
-
-## ⚡ Future Improvements
-
-- Add collaborative filtering
-- Build hybrid recommendation system
-- Deploy as web app using Streamlit
-
----
-
-Author: Mohammad
+```bash
+pip install -r requirements.txt
