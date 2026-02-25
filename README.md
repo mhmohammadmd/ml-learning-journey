@@ -1,2 +1,10 @@
-# ml-learning-journey
-Documenting my Machine Learning learning journey with hands-on implementations, Kaggle coursework, and mini experiments.
+# 📚 ML Learning Journey
+
+This repository contains my machine learning and data science projects.
+
+## Projects
+
+### 🎬 Content-Based Movie Recommendation System
+Content filtering system using TF-IDF and cosine similarity.
+
+More projects coming soon.
