@@ -1,5 +1,5 @@
 # 🎬 Content-Based Movie Recommendation System
-
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue)](https://www.kaggle.com/code/greywolfmd/content-based-movie-recommendation-system/edit)
 ## 📌 Overview
 This project implements a content-based recommendation system using the MovieLens dataset.  
 Movies are represented using TF-IDF vectors generated from genres and tag metadata.  
